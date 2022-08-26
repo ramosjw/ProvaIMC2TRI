@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <script src="./JS/script.js" ></script>
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header><h1>Calculadora de IMC</h1></header>
+    <div class="container">
+        <input type="number" placeholder="Peso" id="peso">
+
+        <input type="number" placeholder="Altura" id="altura">
+     <br>
+        <button onclick="limpar()">Limpar</button>
+        <button onclick="calcular()">Calcular</button> 
+        <br>
+        <input type="text" readonly placeholder="IMC" id="imc"> 
+
+    <table>
+      <tr>
+        
+        <td>IMC</td>
+        <td>CLASSIFICAÇÃO</td>
+        <td>OBESIDADE</td>
+      </tr>
+      <tr>
+        <td>MENOR QUE 18.5</td>
+        <td>MAGREZA</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>ENTRE 18.5 E 24.9</td>
+        <td>NORMAL</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>ENTRE 25.0 E 29.9</td>
+        <td>SOBREPESO</td>
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>ENTRE 30 E 39.9</td>
+        <td>OBESIDADE</td>
+        <td>II</td>
+      </tr>
+      <td>MAIOR QUE 40</td>
+        <td>OBESIDADE GRAVE</td>
+        <td>III</td>
+    </table>
+</div>
+    <footer>
+        <ul>
+            <li>Julia Wenzel de Ramos</li>
+            <li>2ºA</li>
+            <li>Sesi Senai</li>
+        </ul>
+    </footer>
+</body>
+</html>
